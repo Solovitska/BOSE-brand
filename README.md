@@ -1,2 +1,2 @@
-# BOSE-Landing
-BOSE Landing [HTML, CSS, JS, GIT]
+# BOSE- High-Quality Audio Equipment
+BOSE- High-Quality Audio Equipment [HTML, CSS, JS, GIT]
