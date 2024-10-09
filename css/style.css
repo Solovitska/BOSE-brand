@@ -42,7 +42,7 @@ p {
 
 @media (max-width: 1024px) {
   .header-section {
-    padding: 80px 72px;
+    padding: 70px 72px;
     background-image: url(../img/bose/headphones-tab.webp);
 
   }
@@ -50,7 +50,7 @@ p {
 
 @media (max-width: 576px) {
   .header-section {
-    padding: 32px 20px;
+    padding: 22px 20px;
     background-position: 0 0;
   }
 }
