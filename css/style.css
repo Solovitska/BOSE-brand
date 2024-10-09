@@ -29,18 +29,22 @@ p {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  height: 100vh;
-  padding: 64px 120px;
+  padding: 90px 120px;
   background-image: url(../img/bose/headphones.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;  /* Зображення не перевищує ширину контейнера */
+  height: auto;     /* Висота автоматично підлаштовується для збереження пропорцій */
+ object-fit: cover;
+
 }
 
 @media (max-width: 1024px) {
   .header-section {
-    padding: 64px 72px;
+    padding: 80px 72px;
     background-image: url(../img/bose/headphones-tab.webp);
+
   }
 }
 
