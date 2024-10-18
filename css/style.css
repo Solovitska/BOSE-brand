@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  color: #292929;
+  color: #706d6d;
   font-size: 16px;
   line-height: 140%;
 }
@@ -30,12 +30,12 @@ p {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 90px 120px;
-  background-image: url(../img/bose/headphones.webp);
+  background-image: url(../img/bose/Bose.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;  /* Зображення не перевищує ширину контейнера */
-  height: auto;     /* Висота автоматично підлаштовується для збереження пропорцій */
+  max-width: 100%;
+  height: auto;
  object-fit: cover;
 
 }
@@ -43,7 +43,7 @@ p {
 @media (max-width: 1024px) {
   .header-section {
     padding: 70px 72px;
-    background-image: url(../img/bose/headphones-tab.webp);
+    background-image: url(../img/bose/Bose.webp);
 
   }
 }
@@ -58,6 +58,7 @@ p {
 .header-top {
   display: flex;
   justify-content: space-between;
+  color: #654fe5;
 }
 
 .header-bottom img {
@@ -69,11 +70,13 @@ p {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -1.5px;
+  color: rgb(66, 71, 144);
+  margin-top: 60px;
 }
 
 @media (max-width: 1024px) {
   .header-bottom-title {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 
@@ -96,7 +99,8 @@ p {
   box-sizing: border-box;
   height: 100vh;
   padding: 64px 120px;
-  background-color: #e8eff9;
+  background-color: #081946;
+  color: #654fe5;
 }
 
 @media (max-width: 1024px) {
@@ -141,7 +145,7 @@ p {
   line-height: 100%;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #292929;
+  color: #4940c0;
   text-decoration: none;
 }
 /* #endregion */
@@ -311,12 +315,12 @@ p {
 }
 
 .logo {
-  height: 24px;
+  height: 10px;
 }
 
 @media (max-width: 576px) {
   .logo {
-    height: 16px;
+    height: 6px;
   }
 }
 
