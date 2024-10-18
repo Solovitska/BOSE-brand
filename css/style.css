@@ -23,6 +23,7 @@ p {
   padding: 0;
   margin: 0;
 }
+
 /* #region header */
 .header-section {
   display: flex;
@@ -30,30 +31,12 @@ p {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 90px 120px;
-  background-image: url(../img/bose/Bose.webp);
+  background-image: url(../img/bose/Bose-x-Lisa.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  height: auto;
- object-fit: cover;
-
-
-}
-
-@media (max-width: 1024px) {
-  .header-section {
-    padding: 70px 72px;
-    background-image: url(../img/bose/Bose.webp);
-
-  }
-}
-
-@media (max-width: 576px) {
-  .header-section {
-    padding: 22px 20px;
-    background-position: 0 0;
-  }
+  height: auto; /* Розгляньте використання min-height або фіксованої висоти */
 }
 
 .header-top {
@@ -66,13 +49,12 @@ p {
   margin-bottom: 40px;
 }
 
-
-
+/* #region menu */
 .menu {
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
   transform: translateX(-100%);
   transition: transform 500ms;
   display: flex;
@@ -80,21 +62,8 @@ p {
   box-sizing: border-box;
   height: 100vh;
   padding: 64px 120px;
-  background-color: #5a6ea8;
-  color: #b5ade3;
-}
-
-
-@media (max-width: 1024px) {
-  .menu {
-    padding: 64px 72px;
-  }
-}
-
-@media (max-width: 576px) {
-  .menu {
-    padding: 32px 20px;
-  }
+  background-color: #947ea4;
+  color: #a725e3;
 }
 
 .menu:target {
@@ -106,12 +75,6 @@ p {
   justify-content: space-between;
   margin-bottom: 64px;
   color: #9685f4;
-}
-
-@media (max-width: 576px) {
-  .menu-top {
-    margin-bottom: 36px;
-  }
 }
 
 .menu-ottom-list {
@@ -131,6 +94,7 @@ p {
   color: #948ee5;
   text-decoration: none;
 }
+
 /* #endregion */
 
 .main {
@@ -138,17 +102,50 @@ p {
   background-color: #fff;
 }
 
+/* #region responsive styles */
 @media (max-width: 1024px) {
+  .header-section,
+  .menu {
+    padding: 70px 72px;
+  }
+
   .main {
     padding: 120px 72px;
+  }
+
+  .menu {
+    padding: 64px 72px;
   }
 }
 
 @media (max-width: 576px) {
+  .header-section {
+    padding: 22px 20px;
+    background-position: 0 0;
+  }
+
+  .menu {
+    padding: 32px 20px;
+  }
+
   .main {
     padding: 120px 20px;
   }
+
+  .menu-top {
+    margin-bottom: 36px;
+  }
+
+  .logo {
+    height: 6px;
+  }
+
+  .waves {
+    height: 38px;
+  }
 }
+
+/* #endregion */
 
 .section-title {
   margin-bottom: 64px;
@@ -217,6 +214,7 @@ p {
 .category {
   margin-bottom: 64px;
 }
+
 .category-photos {
   display: flex;
   gap: 3%;
@@ -234,10 +232,7 @@ p {
 }
 
 @media (max-width: 576px) {
-  .photo-wide {
-    width: 48.5%;
-  }
-
+  .photo-wide,
   .photo-small {
     width: 48.5%;
   }
@@ -299,18 +294,6 @@ p {
   height: 10px;
 }
 
-@media (max-width: 576px) {
-  .logo {
-    height: 6px;
-  }
-}
-
 .waves {
   height: 76px;
-}
-
-@media (max-width: 576px) {
-  .waves {
-    height: 38px;
-  }
 }
