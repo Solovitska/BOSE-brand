@@ -31,7 +31,7 @@ p {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 90px 120px;
-  background-image: url(../img/bose/Bose-x-Lisa.webp);
+  background-image: url(./img/bose/Bose-x-Lisa.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,7 +284,7 @@ p {
   bottom: 0;
   z-index: -1;
   height: 460px;
-  background-image: url(../img/bose/footer-bose.webp);
+  background-image: url(./img/bose/footer-bose.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
