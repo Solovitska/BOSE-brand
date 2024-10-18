@@ -58,7 +58,7 @@ p {
 .header-top {
   display: flex;
   justify-content: space-between;
-  color: #654fe5;
+  color: #e9e8ed;
 }
 
 .header-bottom img {
@@ -70,7 +70,7 @@ p {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -1.5px;
-  color: rgb(66, 71, 144);
+  color:rgb(113 118 197);
   margin-top: 60px;
 }
 
@@ -99,8 +99,8 @@ p {
   box-sizing: border-box;
   height: 100vh;
   padding: 64px 120px;
-  background-color: #081946;
-  color: #654fe5;
+  background-color: #5a6ea8;
+  color: #b5ade3;
 }
 
 @media (max-width: 1024px) {
@@ -145,7 +145,7 @@ p {
   line-height: 100%;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #4940c0;
+  color: #948ee5;
   text-decoration: none;
 }
 /* #endregion */
@@ -223,8 +223,6 @@ p {
 .product-price {
   font-weight: bold;
 }
-
-/* #endregion */
 
 /* #region section__categories */
 .categories {
